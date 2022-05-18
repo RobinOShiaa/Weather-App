@@ -60,7 +60,7 @@ app.get('/weather', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Andrew Mead',
+        name: 'Robin O\'Shea',
         errorMessage: 'Page not found.'
     })
 })
